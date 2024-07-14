@@ -27,6 +27,26 @@ input {
   @apply border border-sky-300 text-sm rounded-md p-2 focus:outline-none focus:ring-0 focus:border-blue-500 mt-2 w-96;
 }
 
+.transaction-container:hover .delete-button {
+  display: block;
+}
+
+.delete-button {
+  display: none;
+}
+
 .tab {
   @apply w-40 bg-white px-6 py-2;
+}
+
+.transaction-item {
+  @apply w-full h-full px-3 py-2 flex justify-between bg-stone-100 border-l-4 border-solid rounded-md;
+}
+
+.plus {
+  @apply border-green-600;
+}
+
+.minus {
+  @apply border-red-600;
 }
