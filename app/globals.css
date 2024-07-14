@@ -2,32 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+button {
+  @apply uppercase bg-blue-600 text-white px-3 py-2 rounded-md active:opacity-25 text-center font-medium text-sm;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.user {
+  @apply bg-white;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.avatarBox,
+.cl-userButtonAvatarBox {
+  @apply w-12 h-12 object-contain;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.form-control {
+  @apply flex flex-col mb-5;
+}
+
+label {
+  @apply font-medium text-base;
+}
+
+input {
+  @apply border border-sky-300 text-sm rounded-md p-2 focus:outline-none focus:ring-0 focus:border-blue-500 mt-2 w-96;
+}
+
+.tab {
+  @apply w-40 bg-white px-6 py-2;
 }
