@@ -16,10 +16,10 @@ function AddTransaction() {
     }
   };
   return (
-    <div className="mt-10 select-none w-full flex flex-col  items-center ">
+    <div className="mt-10 select-none w-full flex flex-col  items-center">
       <h3 className="font-semibold text-xl text-center">Add Transaction</h3>
       <div className="h-[0.5px] mt-5 bg-stone-300 w-96" />
-      <form ref={formRef} action={clientAction} className="mt-10">
+      <form ref={formRef} action={clientAction} className="mt-10 flex flex-col">
         <div className="form-control">
           <label htmlFor="text">Description</label>
           <input

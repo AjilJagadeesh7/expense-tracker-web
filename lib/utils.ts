@@ -1,3 +1,3 @@
 export const addCommas = (num: number): string => {
-  return num.toLocaleString("en-IN");
+  return Number(num.toFixed(2)).toLocaleString("en-IN");
 };
