@@ -1,36 +1,18 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Expense Tracker
 
-## Getting Started
+## Demo
+Check out the live demo [here](https://expense-tracker-web-gamma.vercel.app/).
 
-First, run the development server:
+## Overview
+This project is an expense tracker application built using a modern tech stack. It allows users to sign in, manage their expenses and incomes, view transaction history, and delete transactions. The application leverages several powerful tools and technologies to provide a seamless experience.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tech Stack
+- **Next.js**: A React framework for building fast and user-friendly web applications.
+- **Neon (Postgres)**: Managed Postgres service for the backend database. Learn more at [Neon](https://neon.tech/).
+- **Prisma**: A next-generation ORM for database management and type-safe queries.
+- **Clerk**: Handles user authentication and sign-in processes.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Features
+- **User Authentication**: Sign in using Clerk for secure and easy authentication.
+- **Expense Management**: Add, view, and delete your expenses and incomes.
+- **Transaction History**: Get a comprehensive history of all your transactions.
